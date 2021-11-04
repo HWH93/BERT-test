@@ -1,3 +1,12 @@
+## Dependencies
+
+- cudatoolkit=11.3.1
+- cudnn=8.2.1
+- scikit-learn
+- tensorflow=2.6.0
+- transformer=4.11.3
+
+
 TFRecord 데이터 생성
 
 ```shell
