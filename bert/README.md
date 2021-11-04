@@ -1,4 +1,4 @@
-## Dependencies
+## 필수 설치
 
 - cudatoolkit=11.3.1
 - cudnn=8.2.1
@@ -7,7 +7,9 @@
 - transformer=4.11.3
 
 
-TFRecord 데이터 생성
+## 학습 과정
+
+- TFRecord 데이터 생성
 
 ```shell
 python create_pretraining_data.py \
@@ -23,7 +25,7 @@ python create_pretraining_data.py \
 ```
 
 
-사전 학습 시작 (init_checkpoint 는 처음 학습할 경우 사용 x)
+- 사전 학습 시작 (init_checkpoint 는 처음 학습할 경우 사용 x)
 
 ```shell
 python run_pretraining.py \
@@ -42,7 +44,7 @@ python run_pretraining.py \
 ```
 
 
-결과 화면
+- 결과 화면
 
 ```
 ***** Eval results *****
