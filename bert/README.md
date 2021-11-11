@@ -5,7 +5,7 @@
 - scikit-learn
 - tensorflow=2.6.0
 - transformer=4.11.3
-- python 3.7.11
+- python=3.7.11
 
 
 ## 학습 과정
